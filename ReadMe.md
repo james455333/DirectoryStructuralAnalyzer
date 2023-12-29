@@ -1,6 +1,9 @@
-# show your directory structure with Folder Structure
+# DirectoryStructuralAnalyzer by James.Pan
+## Features
+- show your directory structure with Folder Structure(output example below)
 
-#### example
+
+#### output example
 ```
 example
 |— first-1.txt
@@ -16,6 +19,12 @@ example
 |   |— second-2.txt
 ```
 
+## Programming Languages, Technology and its Versions
+
+#### Here is a list of programming languages used in this project along with their respective versions:
+
+- **Java**: 17.0.9
+- **Maven**: 3.9.6
 
 ### step 1 : compiled executable jar file
 ```mvn
@@ -29,7 +38,7 @@ mvn clean package
 | HELP | -h, --help| optional    | get program info and help                                |
 | PATH | -p, --path| required    | the path you want to analyze, **must be directory** and **absolute path** |
 
-#### example
+#### commend example
 `java -jar DirectoryStructuralAnalyzer-1-0-0.jar -p c:\example`
 
 `java -jar DirectoryStructuralAnalyzer-1-0-0.jar -p /var/www/html`
